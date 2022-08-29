@@ -39,7 +39,9 @@
 
 
 ## Screenshots
+![Example screenshot](./src/assets/img/home.png)
 ![Example screenshot](./src/assets/img/portfolio.png)
+![Example screenshot](./src/assets/img/mobile.png)
 
 
 ## Project Status

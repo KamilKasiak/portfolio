@@ -54,7 +54,7 @@ const Contact = () => {
                     </h1>
                     <p>
                     I am looking for a role in IT company with the opportunity to work with
-                    the latest technologies.
+                    the latest technologies. If you need a website or application, don't hesitate to write to me :)
                     </p>
                     <div className="contact-form">
                     <form ref={refForm} onSubmit={sendEmail}>
