@@ -1,4 +1,4 @@
-# Truck Track
+# Portfolio website
 > Website created as portfolio <!-- [_here_](https://www.example.com). -->
 
 ## Table of Contents
@@ -24,7 +24,7 @@
 
 ## Technologies Used
 - React - version 18.2.0
-- Saas - version 1.54.5
+- Sass - version 1.54.5
 - JavaScript
 - SCSS
 - CSS3
