@@ -1,0 +1,25 @@
+
+html {
+  margin: 0;
+  font-size: 63%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  font: 300 11px/1.4 "Helvetica Neu", "sans-serif";
+  color: #444;
+  background: rgba(2,36,69,1);
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1219px) {
+  body{
+    overflow:visible;
+  }
+}
+

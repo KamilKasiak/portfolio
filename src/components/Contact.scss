@@ -1,0 +1,128 @@
+.contact-form {
+    width:100%;
+    margin-top: 20px;
+
+    ul {
+        padding:0;
+        margin: 0;
+
+        li{
+            padding:0;
+            margin:0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display:block;
+            position:relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear:both;
+        }
+        li.half {
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    textarea {
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+    }
+
+    .flat-button {
+        color: #ffd700;
+        background: 0 0;
+        font: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid #ffd700;
+        float: left;
+        border-radius: 4px;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover {
+            background: #ffd700;
+            color: #333;
+        }
+    }
+}
+
+.info-map {
+    position: absolute;
+    background-color: #000;
+    top: 100px;
+    right: 40%;
+    width: 270px;
+    padding: 20px;
+    color: #fff;
+    font-family: "Helvetica";
+    font-size: 20px;
+    font-weight: 300;
+    z-index: 9;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+
+    span {
+        font-size: 18px;
+        display: block;
+        padding-top: 20px;
+        color:#ffd700;
+    }
+}
+
+.map {
+    background: rgba(8, 253, 216, 0.1);
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 1219px) {
+    .contact-page .text-zone {
+        transform: translateY(8%) !important;
+    }
+    .map {
+        float: none;
+        width: 100%;
+        height: 400px;
+        margin-top: 8%;
+    }
+    .info-map {
+        display: none;
+    }
+}
