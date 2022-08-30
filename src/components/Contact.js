@@ -32,12 +32,11 @@ const Contact = () => {
             )
             .then ( (result) => {
                 alert("Message successfully sent!")
-                window.location.reload(false)
+                window.location.replace("https://kasiakkamil.com/")
                 
             }, () => {
                 alert("Failed to send the message, please try again!")
-            })
-          
+            })  
 
     }
 

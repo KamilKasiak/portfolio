@@ -72,7 +72,7 @@ const Portfolio = () => {
                                 <a href="https://github.com/KamilKasiak/portfolio" target="_blank" rel="noreferer">
                                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                                 </a>
-                                <a href="https://github.com/KamilKasiak/portfolio" target="_blank" rel="noreferer">
+                                <a href="https://kasiakkamil.com/" target="_blank" rel="noreferer">
                                     <span className="material-symbols-outlined">language</span>
                                 </a>
                             </div>
