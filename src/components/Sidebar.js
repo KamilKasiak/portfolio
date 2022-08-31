@@ -46,7 +46,7 @@ const Sidebar = () => {
                     </a>  
                     </li>
                     <li>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/KamilKasiak" >
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kamil-kasiak-bielecki-50a204181/" >
                         <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                     </a>  
                     </li>

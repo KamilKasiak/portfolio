@@ -42,7 +42,7 @@ const Portfolio = () => {
                                 <a href="https://github.com/KamilKasiak/Truck-Track" target="_blank" rel="noreferer">
                                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                                 </a>
-                                <a href="https://github.com/KamilKasiak/Truck-Track" target="_blank" rel="noreferer">
+                                <a href="http://truck-track.kasiakkamil.com/" target="_blank" rel="noreferer">
                                     <span className="material-symbols-outlined">language</span>
                                 </a>
                             </div>
@@ -57,9 +57,9 @@ const Portfolio = () => {
                                 <a href="https://github.com/KamilKasiak/Guardian-App" target="_blank" rel="noreferer">
                                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                                 </a>
-                                <a href="https://github.com/KamilKasiak/Guardian-App" target="_blank" rel="noreferer">
+                                {/* <a href="https://github.com/KamilKasiak/Guardian-App" target="_blank" rel="noreferer">
                                     <span className="material-symbols-outlined">language</span>
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </div>
@@ -87,9 +87,9 @@ const Portfolio = () => {
                                 <a href="https://github.com/KamilKasiak/Tindeer" target="_blank" rel="noreferer">
                                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                                 </a>
-                                <a href="https://github.com/KamilKasiak/Tindeer" target="_blank" rel="noreferer">
+                                {/* <a href="https://github.com/KamilKasiak/Tindeer" target="_blank" rel="noreferer">
                                     <span className="material-symbols-outlined">language</span>
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </div>

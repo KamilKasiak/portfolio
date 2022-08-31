@@ -112,17 +112,33 @@
     animation-fill-mode: forwards;
 }
 
+@media screen and (max-width: 719px) {
+    .map {
+        transform: translateY(10%) !important;
+        margin-top: 15% !important;
+    }
+}
+
 @media screen and (max-width: 1219px) {
     .contact-page .text-zone {
-        transform: translateY(8%) !important;
+        transform: translateY(10%) !important;
+        box-sizing: border-box;
     }
     .map {
         float: none;
         width: 100%;
-        height: 400px;
+        height: 60vh;
         margin-top: 8%;
+        transform: none;
     }
     .info-map {
         display: none;
     }
+
+    .flat-button {
+        position: relative;
+        display: block;
+        float: none;
+    }
 }
+

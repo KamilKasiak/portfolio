@@ -76,26 +76,28 @@ const Contact = () => {
                         </ul>
                     </form>
                     </div>
+                    
                 </div>
             
-            <div className="info-map">
-                Kamil Kasiak-Bielecki
-                <br />
-                Switzerland, 4052 Basel
-                <br />
-                <span>kasiakkamil@gmail.com</span>
-            </div>
-            <div className="map">
-                <MapContainer center={[47.55359284736058, 7.613617312222805]} zoom={15}>
-                    <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'/>
-                        <Marker position={[47.55359284736058, 7.613617312222805]}>
-                        <Popup>I am here :)</Popup>
-                    </Marker>
-                </MapContainer>
+                <div className="info-map">
+                    Kamil Kasiak-Bielecki
+                    <br />
+                    Switzerland, 4052 Basel
+                    <br />
+                    <span>kasiakkamil@gmail.com</span>
+                </div>
+                <div className="map">
+                    <MapContainer center={[47.55359284736058, 7.613617312222805]} zoom={13}>
+                        <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'/>
+                            <Marker position={[47.55359284736058, 7.613617312222805]}>
+                            <Popup>I am here :)</Popup>
+                        </Marker>
+                    </MapContainer>
 
+                </div>
+           
             </div>
-        </div>
-            <Loader type="pacman" />
+                <Loader type="pacman" />
         </div>
     )
 }
