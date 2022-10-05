@@ -32,7 +32,7 @@
     position: absolute;
     height: 210px;
     top: 50%;
-    margin-top: -120px;
+    margin-top: -25vh;
     width: 100%;
 
     a {
@@ -58,7 +58,7 @@
         }
       }
       &:after {
-        content: '';
+        content: "";
         font-size: 9px;
         letter-spacing: 2px;
         position: absolute;
@@ -72,29 +72,29 @@
     }
     a.home-link {
       &:after {
-        content: 'HOME';
+        content: "HOME";
       }
     }
 
     a.about-link {
       &:after {
-        content: 'ABOUT';
+        content: "ABOUT";
       }
     }
 
     a.contact-link {
       &:after {
-        content: 'CONTACT';
+        content: "CONTACT";
       }
     }
     a.portfolio-link {
       &:after {
-        content: 'PORTFOLIO';
+        content: "PORTFOLIO";
       }
     }
     a.gameboard-link {
       &:after {
-        content: 'GAME';
+        content: "GAME";
       }
     }
 
