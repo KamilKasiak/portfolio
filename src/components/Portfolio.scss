@@ -1,6 +1,8 @@
 $primary: #ffd700;
+
 .portfolio-list {
   max-width: 40%;
+  display: block;
   a {
     font-size: 2rem;
     color: #4d4d4e;
@@ -27,6 +29,7 @@ $primary: #ffd700;
     }
   }
 }
+
 .portfolio-container {
   max-height: 105%;
   display: flex;
@@ -261,6 +264,21 @@ $primary: #ffd700;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
+    overflow-x: hidden;
+
+    .portfolio-list {
+      max-width: 100% !important;
+      ul {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+        row-gap: 1rem;
+        column-gap: 2rem;
+        li {
+          text-align: center;
+        }
+      }
+    }
 
     h1 {
       transform: translateY(40%);

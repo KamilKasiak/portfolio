@@ -6,10 +6,11 @@ import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import Truck from '../assets/img/truck.png'
-import Guardian from '../assets/img/guardian.png'
 import portfolio from '../assets/img/portfolio.png'
 import tindeer from '../assets/img/tindeer.png'
 import carChain from '../assets/img/car-chain.png'
+import blog from '../assets/img/blog.png'
+import site from '../assets/img/site.png'
 
 const Portfolio = () => {
   const portfolioArray = 'Portfolio'.split('')
@@ -24,7 +25,7 @@ const Portfolio = () => {
   return (
     <div>
       <div className="container portfolio-page">
-        <div className="text-zone">
+        <div className="text-zone conntact-text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -41,13 +42,16 @@ const Portfolio = () => {
                 <a href="#truck">MERN Application</a>
               </li>
               <li>
+                <a href="#blog">Next.js, GraphQL, Tailwind CSS</a>
+              </li>
+              <li>
                 <a href="#portfolio">React Portfolio</a>
               </li>
               <li>
                 <a href="#tindeer">Bootstrap app</a>
               </li>
               <li>
-                <a href="#todo">ToDo app</a>
+                <a href="#site">Single page website</a>
               </li>
             </ul>
           </div>
@@ -90,14 +94,14 @@ const Portfolio = () => {
                   <a
                     href="https://github.com/KamilKasiak/Blockchain-Car-Rental"
                     target="_blank"
-                    rel="noreferer"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                   </a>
                   <a
                     href="https://car-chain.kasiakkamil.com/"
                     target="_blank"
-                    rel="noreferer"
+                    rel="noreferrer"
                   >
                     <span className="material-symbols-outlined">language</span>
                   </a>
@@ -139,14 +143,49 @@ const Portfolio = () => {
                   <a
                     href="https://github.com/KamilKasiak/Truck-Track"
                     target="_blank"
-                    rel="noreferer"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                   </a>
                   <a
                     href="http://truck-track.kasiakkamil.com/"
                     target="_blank"
-                    rel="noreferer"
+                    rel="noreferrer"
+                  >
+                    <span className="material-symbols-outlined">language</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="portfolio-item" id="blog">
+            <img src={blog} alt="Travel Blog"></img>
+            <div className="hover-item">
+              <div className="hover-item-content">
+                <h3>Travel Blog</h3>
+                <p className="description">
+                  Blog connected with Hygraph CMS for good user experiance
+                </p>
+                <pre className="technologies">
+                  Technology used:
+                  <br />
+                  <p>
+                    Next.js, React, GraphQL, Tailwind CSS, GraphCMS(Hygraph),
+                    Stripe
+                  </p>
+                </pre>
+                <div className="icons">
+                  <a
+                    href="https://github.com/KamilKasiak/Blog"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                  </a>
+                  <a
+                    href="https://urlopaktywnie.pl/"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <span className="material-symbols-outlined">language</span>
                   </a>
@@ -172,14 +211,14 @@ const Portfolio = () => {
                   <a
                     href="https://github.com/KamilKasiak/portfolio"
                     target="_blank"
-                    rel="noreferer"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                   </a>
                   <a
                     href="https://kasiakkamil.com/"
                     target="_blank"
-                    rel="noreferer"
+                    rel="noreferrer"
                   >
                     <span className="material-symbols-outlined">language</span>
                   </a>
@@ -205,40 +244,37 @@ const Portfolio = () => {
                   <a
                     href="https://github.com/KamilKasiak/Tindeer"
                     target="_blank"
-                    rel="noreferer"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                   </a>
-                  {/* <a href="https://github.com/KamilKasiak/Tindeer" target="_blank" rel="noreferer">
-                                    <span className="material-symbols-outlined">language</span>
-                                </a> */}
                 </div>
               </div>
             </div>
           </div>
-          <div className="portfolio-item" id="todo">
-            <img src={Guardian} alt="Guardian app"></img>
+          <div className="portfolio-item" id="site">
+            <img src={site} alt="Rent house site"></img>
             <div className="hover-item">
               <div className="hover-item-content">
-                <h3>ToDo app</h3>
-                <p className="description">Simple ToDo app in React</p>
+                <h3>Single page renting website</h3>
+                <p className="description">
+                  Single page website created for house renting. Canvas
+                  animation create title effect like in Stripe homepage.
+                </p>
                 <pre className="technologies">
                   Technology used:
                   <br />
-                  <p>React, JavaScript, CSS3, HTML5</p>
+                  <p>React, SASS, HTML5, GSAP</p>
                 </pre>
 
                 <div className="icons">
                   <a
-                    href="https://github.com/KamilKasiak/Guardian-App"
+                    href="https://github.com/KamilKasiak/SasinoWebpage"
                     target="_blank"
-                    rel="noreferer"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                   </a>
-                  {/* <a href="https://github.com/KamilKasiak/Guardian-App" target="_blank" rel="noreferer">
-                                    <span className="material-symbols-outlined">language</span>
-                                </a> */}
                 </div>
               </div>
             </div>
